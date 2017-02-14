@@ -2,44 +2,107 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>FIFI's</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
-
-
-
 <body>
+  
+
+    <nav class="navbar navbar-default">
+       <div class="container-fluid">
+          <div class="navbar-header">
+             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-id" aria-expanded="false">                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+             </button>
+             <a class="navbar-brand" href="#">FIFI's</a>
+          </div>
+          <div class="collapse navbar-collapse" id="menu-id">
+             <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">News</a></li>
+             </ul>
+          </div>
+        </div>
+     </nav>
+
+  
+   <div id="slideshow" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+            <div class="item active"><img src="0.jpg" width="100%" alt="無">
+                <div class="carousel-caption"><h3>Image 1</h3></div>
+        </div>
+        <div class="item"><img src="1.jpg" width="100%" alt="無">
+             <div class="carousel-caption"><h3>Image 2</h3></div>
+        </div>
+    </div>
+    <div class="control-btn">
+       <a href="#slideshow" class="left carousel-control" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hiddden="true"></span>
+       </a>
+       <a href="#slideshow" class="right carousel-control" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hiddden="true"></span>
+       </a>
+    </div>
+    <ol class="carousel-indicators">
+       <li data-target="#slideshow" data-slide-to="0"></li>
+       <li data-target="#slideshow" data-slide-to="1"></li>
+    </ol>
+</div>
+<div class="container">
+ <div class="jumbotron">
+  <div class="row" display="inline-block">
+     <div class="col-sd-1 col-md-4" >
+        <div class="thumbnail">
+           <img src="" alt="無">
+           <div class="caption">
+              <h3>01</h3>
+              <p>...</p>
+              <p>
+                 <a href="#" class="btn btn-primary" role="button">Button</a>
+                 <a href="#" class="btn btn-default" role="button">Button</a>
+              </p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-sd-1 col-md-4" > 
+        <div class="thumbnail">
+           <img src="" alt="無">
+           <div class="caption">
+              <h3>02</h3>
+              <p>...</p>
+              <p>
+                 <a href="#" class="btn btn-primary" role="button">Button</a>
+                 <a href="#" class="btn btn-default" role="button">Button</a>
+              </p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-sd-1 col-md-4 " >
+        <div class="thumbnail">
+           <img src=""  alt="無">
+           <div class="caption">
+              <h3>03</h3>
+              <p>...</p>
+              <p>
+                 <a href="#" class="btn btn-primary" role="button">Button</a>
+                 <a href="#" class="btn btn-default" role="button">Button</a>
+              </p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+ </div>
+  
+
+  
+  
+   
     
 </body>
-<table>
-   <table border=solid black cellspacing="0" cellpadding="10">
-    <tr>
-        <td>A1</td>
-        <td colspan="2">B1</td>
-    </tr>
-    <tr>
-        <td>A2</td>
-        <td rowspan="2">B2</td>
-        <td>C2</td>
-    </tr>
-    <tr>
-        <td>A3</td>
-        <td>B3</td>
-    </tr>
-   </table>
-   
-   <ul <div type="square">
-       <li>A</li>
-       <li>B</li>
-       <li>C</li>
-   </div>
-   
-
-
-
-
-
-
-
-
 </html>
